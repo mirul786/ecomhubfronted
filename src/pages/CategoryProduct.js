@@ -57,7 +57,6 @@ const CategoryProduct = () => {
                     alt={p.name}
                     onClick={() => {
                       navigate(`/product-details/${p.slug}/${p._id}`);
-                      window.location.reload();
                     }}
                   />
                 </Link>
@@ -73,7 +72,6 @@ const CategoryProduct = () => {
                     className="btn btn-outline-primary ms-1"
                     onClick={() => {
                       navigate(`/product-details/${p.slug}/${p._id}`);
-                      window.location.reload();
                     }}
                   >
                     MORE DETAILS

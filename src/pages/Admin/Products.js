@@ -85,7 +85,7 @@ const Products = () => {
     <Layout title={"All-Products"}>
       <div className="container-fluid">
         <div className="row">
-        <div className="col-md-1"></div>
+          <div className="col-md-1"></div>
           <div className="col-md-2">
             <AdminMenu />
           </div>
@@ -97,7 +97,6 @@ const Products = () => {
                   className="product-link"
                   onClick={() => {
                     navigate(`/dashboard/admin/products/${p.slug}/${p._id}`);
-                    window.location.reload();
                   }}
                 >
                   <div className="col">
@@ -108,19 +107,19 @@ const Products = () => {
                         alt={p.name}
                       />
                       <div className="card-body">
-                      <p className="card-text">
-                        {p.description.substring(0, 40)}...
-                      </p>
-                      <p className="card-text cart-seller">{p.name}</p>
-                      <h6>
-                        <span className="price">₹{p.price}</span>
-                        <span className="netPrice">₹{p.netPrice}</span>
-                        <span className="discount">{p.discount}% Off</span>
-                      </h6>
-                      {p?.netPrice < 500 ? null : (
-                        <span className="cart-seller">Free Delivery</span>
-                      )}
-                    </div>
+                        <p className="card-text">
+                          {p.description.substring(0, 40)}...
+                        </p>
+                        <p className="card-text cart-seller">{p.name}</p>
+                        <h6>
+                          <span className="price">₹{p.price}</span>
+                          <span className="netPrice">₹{p.netPrice}</span>
+                          <span className="discount">{p.discount}% Off</span>
+                        </h6>
+                        {p?.netPrice < 500 ? null : (
+                          <span className="cart-seller">Free Delivery</span>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </Link>

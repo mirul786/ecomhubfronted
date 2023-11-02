@@ -187,7 +187,6 @@ const Home = () => {
                         alt={p.name}
                         onClick={() => {
                           navigate(`/product-details/${p?.slug}/${p?._id}`);
-                          window.location.reload();
                         }}
                       />
                     </Link>
