@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+  /* 
+     font-family: 'Playfair Display', serif;
+     font-family: 'Poppins', sans-serif; 
+  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar css*/
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow:  0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  color: #676a6a;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+/*=============================================
+=====================FOOTER====================*/
+
+.footer {
+  text-align: center;
+  color: aliceblue;
+  padding: 0.5rem;
+  line-height: 3;
+  letter-spacing: 0.7px;
+  background: #334d50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, gray, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, gray, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.footer a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 1rem
+  
+}
+
+.footer a:hover {
+  border-bottom: 1px solid rgb(31, 30, 30);
+  margin-top: 5px;
+  color: rgb(31, 30, 30);
+}
+
+/*============================================
+============Single Product Designing==========*/
+
+.product-link {
+  text-decoration: none;
+}
+
+/*============================================
+==============cart-container==================*/
+
+.empty-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-cart h6 {
+  word-spacing: 2px;
+} 
+
+.empty-cart button {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: aliceblue;
+  padding: 0.5rem 4rem;
+  margin-bottom: 1rem;
+}
+
+.cart-seller {
+  color: #676a6a;
+  font-family: 'Poppins', sans-serif; 
+  font-size: medium;
+  font-weight: 500;
+}
+.price {
+  color: #676a6a; 
+  font-size: medium;
+  font-weight: 400;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+
+.price-details-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: blue
+}
+
+.netPrice {
+  font-size: larger;
+  margin-right: 10px;
+}
+
+.discount {
+  font-family: 'Poppins', sans-serif; 
+  font-size: medium;
+  font-weight: 900;
+  color: rgb(75, 173, 75);
+}
+
+.remove-cart {
+  color: aliceblue;
+  background-color: rgb(225, 148, 5);
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  font-weight: 900;
+  margin-top: 3rem;
+  display: block;
+}
+
+.line-through {
+  color: #676a6a;
+  text-decoration: line-through;
+}
+
+.free {
+  color: rgb(75, 173, 75);
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.bachat {
+  color: rgb(75, 173, 75);
+  font-size: large;
+  font-weight: 600;
+}
+
+.secure-payment{
+  display: flex;
+  font-weight: 900;
+}
+
+.secure-payment-message {
+  color: #676a6a;
+  margin-bottom: 2rem;
+}
+
+.product-description a {
+  text-decoration: none;
+}
+
+.shipping-address {
+  display: flex;
+}
+
+.place-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-order-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 0.7rem 5rem;
+}
+
+.card{
+  border-radius: 0;
+}
+
+.login-card {
+  display: flex;
+}
+
+.address {
+  display: flex;
+}
+
+.heading {
+  color: #676a6a;
+}
+
+.row-1 {
+  color: rgb(75, 173, 75);
+  background-color: #d1d9d9;
+  margin-right: 0.5rem;
+  padding: 0 7px;
+  border-radius: 2px;
+  font-size: small;
+
+}
+
+.checkmark {
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.buy-now {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 0.5rem 3rem;
+}
+
+/*==================PRODUCTS DETAILS PAGE===============*/
+
+.order-btn {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/*=================USER DASHBOARD=======================*/
+.user-profile {
+  display: flex;
+}
+
+.user-profile a {
+  text-decoration: none;
+}
+
+.profile-input {
+  border-radius: 0;
+}
+
+/*===============CATEGORY BUTTON=====================*/
+
+.category-btn {
+  padding: 2rem 7rem;
+}
+/*======================================================
+================MEDIA SCREEN===========================*/
+
+@media (max-width: 760px) {
+  .place-order-btn {
+    padding: 0.3rem 2rem;
+    margin-bottom: 1rem;
+  }
+}

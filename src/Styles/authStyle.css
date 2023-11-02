@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+/*=================================================
+====================REGISTER=======================*/
+
+
+.form-container {
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+  
+  .form-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: aliceblue;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+    .form-register {
+      padding: 2rem;
+      background: #334d50;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      border-radius: 10px;
+    }
+  
+    .conditions {
+      font-size: small;
+      font-family: 'Poppins', sans-serif; 
+      margin-top: 0.5rem;
+    }
+    .conditions a {
+      color: aliceblue;
+      font-family: 'Poppins', sans-serif; 
+      text-decoration: none;
+      font-size: small; 
+    }
+  
+    .auth-btn:hover {
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .auth-btn {
+      color: aliceblue;
+      background-color: #334d50;
+      font-family: 'Poppins', sans-serif;
+      font-size: small;
+      padding: 0.3rem;
+      border-radius: 5px;
+      box-shadow: none;
+
+    }
+
+    .forgot-password-heading {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      color: aliceblue;
+      letter-spacing: 5px;
+      text-align: center;
+    }
